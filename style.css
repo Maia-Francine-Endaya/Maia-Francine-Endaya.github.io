@@ -11,7 +11,40 @@ body {
 }
 
 .content {
-  line-height: 12px;
+  line-height: 15px;
+}
+
+.intro-content {
+  display: flex;
+  line-height: 20px;
+}
+
+#placeholder {
+  line-height: 35px;
+  background-color: khaki;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+table {
+  padding: 15px;
+}
+
+td {
+  padding-left: 30px;
+}
+
+#introduction {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #footer {
@@ -26,17 +59,4 @@ body {
 hr {
   border-color: cornflowerblue;
   border-radius: 100px;
-}
-
-#gallery-items {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.placeholder {
-  background-color: darkorchid;
-  border-width: 20px;
-  height: 20px;
-  width: 20px;
 }
