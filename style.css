@@ -1,6 +1,6 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(3, 3, 30);
+  color: rgb(14, 14, 98);
   background-color: rgb(198, 228, 255);
 }
 
@@ -10,8 +10,33 @@ body {
   text-align: center;
 }
 
-.image {
-  padding: 10px;
-  background: cornflowerblue;
-  align-content: normal;
+.content {
+  line-height: 12px;
+}
+
+#footer {
+  display: flex;
+  padding: 20px;
+  background-color: cornflowerblue;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+hr {
+  border-color: cornflowerblue;
+  border-radius: 100px;
+}
+
+#gallery-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.placeholder {
+  background-color: darkorchid;
+  border-width: 20px;
+  height: 20px;
+  width: 20px;
 }
