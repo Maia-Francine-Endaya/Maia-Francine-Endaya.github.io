@@ -33,14 +33,21 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+  padding: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 table {
-  padding: 15px;
+  padding: 30px;
 }
 
 td {
-  padding-left: 30px;
+  padding: 50px;
 }
 
 #introduction {
@@ -48,16 +55,21 @@ td {
   flex-wrap: wrap;
 }
 
-img {
-  width: 100px;
-  height: 90px;
+.greeting {
+  text-align: center;
 }
 
-#programs {
+.programs {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 350px;
+  height: 430px;
 }
 
 #footer {
@@ -66,7 +78,8 @@ img {
   background-color: cornflowerblue;
   text-align: center;
   justify-content: center;
-  align-items: flex-end;
+  align-content: space-between;
+  line-height: 12px;
 }
 
 hr {
