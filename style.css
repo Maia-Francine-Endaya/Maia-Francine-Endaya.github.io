@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-  padding: 20px;
+  padding: 10px;
   background-color: cornflowerblue;
   text-align: center;
 }
@@ -17,6 +17,7 @@ body {
 .intro-content {
   display: flex;
   line-height: 20px;
+  text-align: justify;
 }
 
 #placeholder {
@@ -45,6 +46,18 @@ td {
 #introduction {
   display: flex;
   flex-wrap: wrap;
+}
+
+img {
+  width: 100px;
+  height: 90px;
+}
+
+#programs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 #footer {
