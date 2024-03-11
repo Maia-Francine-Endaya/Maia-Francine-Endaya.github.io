@@ -11,7 +11,7 @@ body {
 }
 
 .content {
-  line-height: 15px;
+  line-height: 12px;
 }
 
 .intro-content {
@@ -43,10 +43,14 @@ body {
 }
 
 table {
-  padding: 30px;
+  padding: 5px;
 }
 
 td {
+  padding: 15px;
+}
+
+#gap {
   padding: 50px;
 }
 
@@ -55,7 +59,7 @@ td {
   flex-wrap: wrap;
 }
 
-.greeting {
+#greeting {
   text-align: center;
 }
 
