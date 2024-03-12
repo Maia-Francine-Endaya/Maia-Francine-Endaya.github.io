@@ -11,7 +11,17 @@ body {
 }
 
 .content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  height: auto;
+  width: 1300px;
   line-height: 12px;
+  padding: 20px;
+}
+
+#greeting {
+  text-align: center;
 }
 
 .intro-content {
@@ -33,13 +43,35 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  padding: 20px;
+  padding: 15px;
+}
+
+figure {
+  float: right;
+  width: 20%;
+  text-align: center;
+  font-style: italic;
+  text-indent: 2px;
+  border: 3px #2c4e9f solid;
+  margin: 10px;
+  padding: 15px;
+}
+
+img.galleryimage {
+  width: 100%;
 }
 
 .projects {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+.contribution {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 20px;
 }
 
 table {
@@ -51,16 +83,12 @@ td {
 }
 
 #gap {
-  padding: 50px;
+  padding: 70px;
 }
 
 #introduction {
   display: flex;
   flex-wrap: wrap;
-}
-
-#greeting {
-  text-align: center;
 }
 
 .programs {
@@ -76,17 +104,25 @@ td {
   height: 430px;
 }
 
-#footer {
+.contactphoto {
+  border-radius: 50%;
+  width: 65px;
+  height: 73px;
+  border: 2px solid #2c4e9f;
+}
+
+.footer {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   padding: 20px;
-  background-color: cornflowerblue;
+  background-color: #6495ed;
   text-align: center;
   justify-content: center;
-  align-content: space-between;
   line-height: 12px;
 }
 
 hr {
-  border-color: cornflowerblue;
+  border-color: #2c4e9f;
   border-radius: 100px;
 }
