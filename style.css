@@ -27,14 +27,6 @@ body {
   text-align: justify;
 }
 
-#placeholder {
-  line-height: 35px;
-  background-color: khaki;
-  padding: 5px;
-  width: 600px;
-  height: 300px;
-}
-
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -66,6 +58,9 @@ img.galleryimage {
 }
 
 .preview {
+  border: 3px dashed #0e0e62;
+  border-radius: 2px;
+  padding: 5px;
   width: 80%;
   height: auto;
 }
@@ -73,7 +68,9 @@ img.galleryimage {
 td.description {
   text-align: justify;
   line-height: 30px;
-  padding-left: 30px;
+  padding: 30px;
+  background-color: bisque;
+  border-radius: 50px;
 }
 
 table {
@@ -102,6 +99,7 @@ td {
 
 .profile {
   border-radius: 50%;
+  border: #0e0e62 dashed 3px;
   width: 350px;
   height: 430px;
 }
