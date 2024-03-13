@@ -2,6 +2,7 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(14, 14, 98);
   background-color: rgb(198, 228, 255);
+  text-align: center;
 }
 
 .header {
@@ -20,10 +21,6 @@ body {
   padding: 20px;
 }
 
-#greeting {
-  text-align: center;
-}
-
 .intro-content {
   display: flex;
   line-height: 20px;
@@ -34,13 +31,14 @@ body {
   line-height: 35px;
   background-color: khaki;
   padding: 5px;
-  width: 150px;
-  height: 150px;
+  width: 600px;
+  height: 300px;
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  width: 1600px;
   flex-direction: row;
   justify-content: space-around;
   padding: 15px;
@@ -65,13 +63,7 @@ img.galleryimage {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-}
-
-.contribution {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 20px;
+  padding: 50px;
 }
 
 table {
@@ -79,7 +71,7 @@ table {
 }
 
 td {
-  padding: 15px;
+  padding: 5px;
 }
 
 #gap {
@@ -124,5 +116,5 @@ td {
 
 hr {
   border-color: #2c4e9f;
-  border-radius: 100px;
+  border: 2px dashed;
 }
