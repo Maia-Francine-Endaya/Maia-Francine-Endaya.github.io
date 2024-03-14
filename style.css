@@ -6,6 +6,8 @@ body {
 }
 
 .header {
+  border: 10px solid transparent;
+  border-image: url(images/others/Border.png) 30% round;
   padding: 10px;
   background-color: cornflowerblue;
   text-align: center;
@@ -48,7 +50,12 @@ figure {
 }
 
 img.galleryimage {
-  width: 100%;
+  border: 10px solid transparent;
+  border-image: url(images/others/Border.png) 30% round;
+  border-radius: 2px;
+  padding: 5px;
+  width: 80%;
+  height: auto;
 }
 
 .projects {
@@ -58,7 +65,8 @@ img.galleryimage {
 }
 
 .preview {
-  border: 3px dashed #0e0e62;
+  border: 10px solid transparent;
+  border-image: url(images/others/Border.png) 30% round;
   border-radius: 2px;
   padding: 5px;
   width: 80%;
@@ -67,10 +75,10 @@ img.galleryimage {
 
 td.description {
   text-align: justify;
+  border: 10px solid transparent;
+  border-image: url(images/others/Border.png) 30% round;
   line-height: 30px;
   padding: 30px;
-  background-color: bisque;
-  border-radius: 50px;
 }
 
 table {
@@ -112,6 +120,8 @@ td {
 }
 
 .footer {
+  border: 10px solid transparent;
+  border-image: url(images/others/Border.png) 30% round;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
