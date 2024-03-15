@@ -54,7 +54,7 @@ img.galleryimage {
   border-image: url(images/others/Border.png) 30% round;
   border-radius: 2px;
   padding: 5px;
-  width: 80%;
+  width: 90%;
   height: auto;
 }
 
@@ -69,12 +69,13 @@ img.galleryimage {
   border-image: url(images/others/Border.png) 30% round;
   border-radius: 2px;
   padding: 5px;
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 
 td.description {
   text-align: justify;
+  background-color: #6495ed;
   border: 10px solid transparent;
   border-image: url(images/others/Border.png) 30% round;
   line-height: 30px;
